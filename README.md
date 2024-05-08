@@ -13,16 +13,18 @@ See Screenshots of the application below
 - Facilitated the generation and viewing of purchase orders in both the application interface and in downloadable PDF format, incorporating QR codes for easy scanning and verification.
 
 ## Navigate through quick links
-For the Back - end source code go here 
-For the Front - end source code go here
+- For the Back - end source code go [here]([https://pages.github.com/](https://github.com/j-arandia/vendor_products_app/tree/main/CaseStudy/casestudy/src/main/java/com/info5059/casestudy))
+- For the Front - end source code go [here]([https://pages.github.com/](https://github.com/j-arandia/vendor_products_app/tree/main/CaseStudy/clientcasestudy/src/app))
 
 ## Technologies
-**Back-End:**
-**Front-End:**
-**Languages:**
-**IDE:**
-**Deploy Platform:**
-**Others:**
+**Back-End:** Java Spring Boot Framework, H2 Batabase
+**Front-End:** Angular Material UI, 
+**Languages:** Typescript, JavaScript
+**IDE:** Visual Studio Code
+**Deploy Platform:** AWS EC2
+**Others:** Saas, Restful API, 
 
 ## Screenshots
+
+
 
