@@ -1,0 +1,109 @@
+<div style="margin: 5vw" *ngIf="hideEditForm">
+  <div>
+    <img
+      src="assets/images/uriko.png"
+      style="height: 15vh; width: 15vh; padding-left: 30%"
+    />
+  </div>
+  <table
+    mat-table
+    [dataSource]="dataSource"
+    matSort
+    (matSortChange)="sortProductsWithObjectLiterals($event)"
+    matSortActive="id"
+    matSortDirection="asc"
+    matSortDisableClear
+    products-table
+    class="mat-elevation-z8"
+  >
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        <div class="center-header">Product No.</div>
+      </th>
+      <td mat-cell *matCellDef="let element">{{ element.id }}</td>
+    </ng-container>
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        <div class="center-header">Name</div>
+      </th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.name }}
+      </td>
+    </ng-container>
+    <!-- Vendor Id Column -->
+    <ng-container matColumnDef="vendorid">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        <div class="center-header">Vendor</div>
+      </th>
+      <td mat-cell *matCellDef="let element">{{ element.vendorid }}</td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+    <tr
+      mat-row
+      *matRowDef="let row; columns: displayedColumns"
+      (click)="select(row)"
+    ></tr>
+  </table>
+  <mat-paginator
+    style="margin-top: 2vh"
+    [pageSize]="pageSize"
+    *ngIf="hideEditForm"
+    #paginator
+  ></mat-paginator>
+  <div
+    style="
+      padding-left: 50vw;
+      padding-top: 5vw;
+      font-size: large;
+      font-weight: bold;
+      color: darkblue;
+    "
+  >
+    {{ msg }}
+  </div>
+  <div class="padtop15">
+    <mat-icon
+      (click)="newProduct()"
+      matTooltip="Add New Product"
+      class="addicon"
+      color="primary"
+    >
+      control_point
+    </mat-icon>
+  </div>
+</div>
+<mat-card *ngIf="!hideEditForm">
+  <mat-card-header layout="row">
+    <mat-card-title>
+      <div>
+        <img
+          src="assets/images/uriko.png"
+          style="height: 15vh; width: 15vh; padding-left: 85%"
+        />
+      </div>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <app-product-detail
+      [selectedProduct]="product"
+      [vendors]="vendors"
+      [products]="products"
+      (cancelled)="cancel('cancelled')"
+      (saved)="save($event)"
+      (deleted)="delete($event)"
+    >
+    </app-product-detail>
+  </mat-card-content>
+  <div
+    style="
+      padding-left: 40vw;
+      padding-top: 5vw;
+      font-size: large;
+      font-weight: bold;
+      color: darkblue;
+    "
+  >
+    <span>{{ msg }}</span>
+  </div>
+</mat-card>

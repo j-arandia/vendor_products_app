@@ -1,0 +1,68 @@
+<mat-card *ngIf="hideEditForm">
+  <mat-card-content *ngIf="vendors.length > 0; else loading">
+    <mat-card-header class="app-accent">
+      <mat-card-title>
+        <div>
+          <img
+            src="assets/images/uriko.png"
+            style="height: 15vh; width: 15vh; padding-left: 70%"
+          />
+        </div>
+      </mat-card-title>
+    </mat-card-header>
+
+    <mat-list flex>
+      <app-vendor-list [vendors]="vendors" (selected)="select($event)">
+      </app-vendor-list>
+    </mat-list>
+  </mat-card-content>
+  <ng-template #loading class="my-primary-text"
+    >Loading Vendors from server...</ng-template
+  >
+
+  <mat-card-footer class="my-primary-text" style="margin: 2% 0 5% 0">
+    <span
+      class="mat-footer"
+      style="font-weight: bold; font-size: larger; padding: 10% 5% 20% 5%"
+      >{{ msg }}</span
+    >
+  </mat-card-footer>
+</mat-card>
+<div class="pad5" *ngIf="hideEditForm">
+  <mat-icon
+    (click)="newVendor()"
+    matTooltip="Add New Vendor"
+    class="addicon"
+    color="primary"
+  >
+    control_point
+  </mat-icon>
+</div>
+<mat-card *ngIf="!hideEditForm">
+  <mat-card-header>
+    <mat-card-title>
+      <div>
+        <img
+          src="assets/images/uriko.png"
+          style="height: 15vh; width: 15vh; padding-left: 85%"
+        />
+      </div>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <app-vendor-details
+      [selectedVendor]="vendor"
+      (cancelled)="cancel('cancelled')"
+      (saved)="save($event)"
+      (deleted)="delete($event)"
+    >
+    </app-vendor-details>
+  </mat-card-content>
+  <mat-card-footer style="margin: 5% 0 2% 0">
+    <span
+      class="my-primary-text"
+      style="font-weight: bold; font-size: larger; padding: 0 5% 0 5%"
+      >{{ msg }}</span
+    >
+  </mat-card-footer>
+</mat-card>

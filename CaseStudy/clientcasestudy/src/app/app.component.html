@@ -1,0 +1,23 @@
+<mat-toolbar color="primary">
+  <span>INFO5059 - {{ title }}</span>
+  <span style="flex: 1 1 auto"></span>
+  <button mat-button [matMenuTriggerFor]="appMenu" align="end">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-menu #appMenu="matMenu">
+  <a mat-menu-item [routerLink]="['home']" (click)="setTitle('home')">home</a>
+  <a mat-menu-item [routerLink]="['vendors']" (click)="setTitle('vendors')"
+    >vendors</a
+  >
+  <a mat-menu-item [routerLink]="['products']" (click)="setTitle('products')"
+    >products</a
+  >
+  <a mat-menu-item [routerLink]="['generator']" (click)="setTitle('generator')"
+    >generator</a
+  >
+  <a mat-menu-item [routerLink]="['po-viewer']" (click)="setTitle('po-viewer')"
+    >viewer</a
+  >
+</mat-menu>
+<router-outlet></router-outlet>
