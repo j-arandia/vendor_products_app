@@ -17,12 +17,12 @@ For the Back - end source code go here
 For the Front - end source code go here
 
 ## Technologies
-** Back-End: **
-Front-End:
-Languages:
-IDE:
-Deploy Platform:
-Others: 
+**Back-End:**
+**Front-End:**
+**Languages:**
+**IDE:**
+**Deploy Platform:**
+**Others:**
 
 ## Screenshots
 
