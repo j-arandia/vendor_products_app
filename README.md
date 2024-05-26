@@ -17,12 +17,12 @@ See Screenshots of the application below
 - For the Front - end source code go [here](https://github.com/j-arandia/vendor_products_app/tree/main/CaseStudy/clientcasestudy/src/app).
 
 ## Technologies
-**Back-End:** Java Spring Boot Framework, H2 Batabase
-**Front-End:** Angular Material UI, 
-**Languages:** Typescript, JavaScript
-**IDE:** Visual Studio Code
-**Deploy Platform:** AWS EC2
-**Others:** Saas, Restful API, 
+- **Back-End:** Java Spring Boot Framework, H2 Batabase
+- **Front-End:** Angular Material UI, 
+- **Languages:** Typescript, JavaScript
+- **IDE:** Visual Studio Code
+- **Deploy Platform:** AWS EC2
+- **Others:** Saas, Restful API, 
 
 ## Screenshots
 
