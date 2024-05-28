@@ -25,8 +25,8 @@ See Screenshots of the application below
 - **Others:** Saas, Restful API, 
 
 ## Screenshots
-<picture>
+- Vendors data successfully loaded the applicaation client:
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/1a22db79-540a-4823-81ea-b79e23758bf3" width=50% height=50%>
-</picture>
+
 
 
