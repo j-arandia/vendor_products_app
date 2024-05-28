@@ -25,10 +25,10 @@ See Screenshots of the application below
 - **Others:** Saas, Restful API, 
 
 ## Screenshots
-- Vendors data successfully loaded the applicaation client:
+- Vendors data successfully loaded the from the H2 database to the client:
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/1a22db79-540a-4823-81ea-b79e23758bf3" width=50% height=50%>
 
-- Updated a vendor's information and it was successfully updated at the back end with the successful message
+- Updated a vendor's information and it was successfully updated at the back-end by displaying the successful message.
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/250ba41e-ec28-4270-9ee1-32aa00d61888" width=50% height=50%>
 
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/3d8ff2f3-5545-4e82-aa97-b9dd16d16a7c" width=50% height=50%>
