@@ -28,5 +28,17 @@ See Screenshots of the application below
 - Vendors data successfully loaded the applicaation client:
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/1a22db79-540a-4823-81ea-b79e23758bf3" width=50% height=50%>
 
+- Updated a vendor's information and it was successfully updated at the back end with the successful message
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/250ba41e-ec28-4270-9ee1-32aa00d61888" width=50% height=50%>
+
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/3d8ff2f3-5545-4e82-aa97-b9dd16d16a7c" width=50% height=50%>
+
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/49f21585-f938-4d8c-acaf-215c814f0bfa" width=50% height=50%>
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/2307fa1e-24d7-4c1f-a4b8-87a5220f0d62" width=50% height=50%>
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/369b118e-36d3-45fa-b840-fdbbbc2aa2b0" width=50% height=50%>
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/6315dcb1-9ca6-4e70-89cf-680f1066bc80" width=50% height=50%>
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/dd0e6333-6d7b-47cd-a096-ff0ce47410b6" width=50% height=50%>
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/543b12fa-2a22-45a1-bcec-ffce59c03018" width=50% height=50%>
+<img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/f46e1e1b-4a91-4697-8591-d35faf54aa0b" width=50% height=50%>
 
 
