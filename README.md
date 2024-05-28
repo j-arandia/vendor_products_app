@@ -1,4 +1,4 @@
-# Vendor and Products App
+1# Vendor and Products App
 
 ## Description
 - Engineered a sophisticated user interface allowing users to interact with vendor and product data seamlessly, including functionalities to add, update, and delete records with built-in confirmation protocols to prevent accidental data loss.
@@ -25,20 +25,44 @@ See Screenshots of the application below
 - **Others:** Saas, Restful API, 
 
 ## Screenshots
-- Vendors data successfully loaded the from the H2 database to the client:
+- Vendors data successfully loaded the from the H2 database to the client.
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/1a22db79-540a-4823-81ea-b79e23758bf3" width=50% height=50%>
 
 - Updated a vendor's information and it was successfully updated at the back-end by displaying the successful message.
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/250ba41e-ec28-4270-9ee1-32aa00d61888" width=50% height=50%>
+
+- Tested the update feature by running a cypress test and a success message was displayed below the application. 
 
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/3d8ff2f3-5545-4e82-aa97-b9dd16d16a7c" width=50% height=50%>
 
+- Validators was added added the to vendor form, used regex to specify the validators.
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/49f21585-f938-4d8c-acaf-215c814f0bfa" width=50% height=50%>
+
+- Saved button was greyed out as a security feature for the form that it cannot be saved with errors
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/2307fa1e-24d7-4c1f-a4b8-87a5220f0d62" width=50% height=50%>
+
+- Purchase Order data in a Json format
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/369b118e-36d3-45fa-b840-fdbbbc2aa2b0" width=50% height=50%>
+
+- Viewing the purchase order data in the H2 databese environment
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/6315dcb1-9ca6-4e70-89cf-680f1066bc80" width=50% height=50%>
+
+- Adding products to the purchase orderwith computation
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/dd0e6333-6d7b-47cd-a096-ff0ce47410b6" width=50% height=50%>
+
+- This link proves that the application was successfully deployed in AWS EC2.
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/543b12fa-2a22-45a1-bcec-ffce59c03018" width=50% height=50%>
+
+- Added a QR Code feature to the product.
+
 <img src="https://github.com/j-arandia/vendor_products_app/assets/105087979/f46e1e1b-4a91-4697-8591-d35faf54aa0b" width=50% height=50%>
 
 
