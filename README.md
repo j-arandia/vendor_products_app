@@ -1,4 +1,4 @@
-1# Vendor and Products App
+# Vendor and Products App
 
 ## Description
 - Engineered a sophisticated user interface allowing users to interact with vendor and product data seamlessly, including functionalities to add, update, and delete records with built-in confirmation protocols to prevent accidental data loss.
